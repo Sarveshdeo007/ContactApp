@@ -6,7 +6,7 @@ import AddContact from './AddContact';
 import ContactList from './ContactList';
 import { v4 as uuidv4 } from 'uuid';
 import ContactDetail from "./ContactDetail";
-
+//My changes
 function App() {
   const LOCAL_STORAGE_KEY = "contacts";
   const [contacts, setContacts] = useState([]); //intially contacts will be empty array 
