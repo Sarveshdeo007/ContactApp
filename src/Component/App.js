@@ -29,6 +29,8 @@ function App() {
   //   console.log("contact",contact);
   // };
 
+  //test push
+
   const removeConactHandler = (id) => {
     const newContactList = contacts.filter((contact) => {
       return contact.id !== id;
